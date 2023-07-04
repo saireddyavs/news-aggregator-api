@@ -28,4 +28,6 @@ const registerValidations = [
   passwordValidation,
 ];
 
-module.exports = { registerValidations };
+const signInValidations = [emailValidation, passwordValidation];
+
+module.exports = { registerValidations, signInValidations };

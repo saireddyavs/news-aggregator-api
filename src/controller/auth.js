@@ -37,6 +37,9 @@ const register = (req, res) => {
 };
 
 const signIn = (req, res) => {
+  const isValidationSuccess = processRequestValidation(req, res);
+  if (!isValidationSuccess) return;
+
   const { email, password } = req.body;
 
   const user = users.find((u) => u.email === email);
