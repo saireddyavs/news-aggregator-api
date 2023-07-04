@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const newAggregator = require('./src/routes/newAggregator');
 const auth = require('./src/routes/auth');
 const morgan = require('morgan');
+const { authenticateToken } = require('./src/middleware/auth');
 
 const routes = express.Router();
 
@@ -16,8 +17,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(morgan('tiny'));
 app.use(routes);
 
-// routes.use('/news', newAggregator);
 routes.use('/', auth);
+// routes.use('/news', newAggregator);
+routes.use('/news', authenticateToken, newAggregator);
 
 app.listen(PORT, (error) => {
   if (!error)

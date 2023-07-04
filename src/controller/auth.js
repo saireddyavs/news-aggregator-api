@@ -4,6 +4,8 @@ const { handleValidationError, newApiError } = require('../errors/apiError');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
+let idCounter = 0;
+
 const users = [];
 
 const processRequestValidation = (req, res) => {
@@ -31,7 +33,9 @@ const register = (req, res) => {
     fullName,
     email,
     password: bcrypt.hashSync(password, 4),
+    id: idCounter,
   });
+  idCounter += 1;
 
   res.status(200).json({ message: 'User registered successfully' });
 };
@@ -68,7 +72,7 @@ const signIn = (req, res) => {
 
   const token = jwt.sign(
     {
-      email: user.email,
+      email: user.id,
     },
     process.env.API_SECRET,
     {
