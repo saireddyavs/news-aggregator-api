@@ -11,20 +11,8 @@
                     "name": "ABC News (AU)"
                 },
                 {
-                    "id": "aftenposten",
-                    "name": "Aftenposten"
-                },
-                {
                     "id": "al-jazeera-english",
                     "name": "Al Jazeera English"
-                },
-                {
-                    "id": "ansa",
-                    "name": "ANSA.it"
-                },
-                {
-                    "id": "ary-news",
-                    "name": "Ary News"
                 },
                 {
                     "id": "associated-press",
@@ -37,14 +25,6 @@
                 {
                     "id": "bbc-news",
                     "name": "BBC News"
-                },
-                {
-                    "id": "bild",
-                    "name": "Bild"
-                },
-                {
-                    "id": "blasting-news-br",
-                    "name": "Blasting News (BR)"
                 },
                 {
                     "id": "breitbart-news",
@@ -63,112 +43,32 @@
                     "name": "CNN"
                 },
                 {
-                    "id": "cnn-es",
-                    "name": "CNN Spanish"
-                },
-                {
-                    "id": "der-tagesspiegel",
-                    "name": "Der Tagesspiegel"
-                },
-                {
-                    "id": "el-mundo",
-                    "name": "El Mundo"
-                },
-                {
-                    "id": "focus",
-                    "name": "Focus"
-                },
-                {
                     "id": "fox-news",
                     "name": "Fox News"
-                },
-                {
-                    "id": "globo",
-                    "name": "Globo"
                 },
                 {
                     "id": "google-news",
                     "name": "Google News"
                 },
                 {
-                    "id": "google-news-ar",
-                    "name": "Google News (Argentina)"
-                },
-                {
                     "id": "google-news-au",
                     "name": "Google News (Australia)"
-                },
-                {
-                    "id": "google-news-br",
-                    "name": "Google News (Brasil)"
                 },
                 {
                     "id": "google-news-ca",
                     "name": "Google News (Canada)"
                 },
                 {
-                    "id": "google-news-fr",
-                    "name": "Google News (France)"
-                },
-                {
                     "id": "google-news-in",
                     "name": "Google News (India)"
-                },
-                {
-                    "id": "google-news-is",
-                    "name": "Google News (Israel)"
-                },
-                {
-                    "id": "google-news-it",
-                    "name": "Google News (Italy)"
-                },
-                {
-                    "id": "google-news-ru",
-                    "name": "Google News (Russia)"
-                },
-                {
-                    "id": "google-news-sa",
-                    "name": "Google News (Saudi Arabia)"
                 },
                 {
                     "id": "google-news-uk",
                     "name": "Google News (UK)"
                 },
                 {
-                    "id": "goteborgs-posten",
-                    "name": "Göteborgs-Posten"
-                },
-                {
                     "id": "independent",
                     "name": "Independent"
-                },
-                {
-                    "id": "infobae",
-                    "name": "Infobae"
-                },
-                {
-                    "id": "la-gaceta",
-                    "name": "La Gaceta"
-                },
-                {
-                    "id": "la-nacion",
-                    "name": "La Nacion"
-                },
-                {
-                    "id": "la-repubblica",
-                    "name": "La Repubblica"
-                },
-                {
-                    "id": "le-monde",
-                    "name": "Le Monde"
-                },
-                {
-                    "id": "lenta",
-                    "name": "Lenta"
-                },
-                {
-                    "id": "liberation",
-                    "name": "Libération"
                 },
                 {
                     "id": "msnbc",
@@ -199,16 +99,8 @@
                     "name": "New York Magazine"
                 },
                 {
-                    "id": "nrk",
-                    "name": "NRK"
-                },
-                {
                     "id": "politico",
                     "name": "Politico"
-                },
-                {
-                    "id": "rbc",
-                    "name": "RBC"
                 },
                 {
                     "id": "reddit-r-all",
@@ -219,28 +111,8 @@
                     "name": "Reuters"
                 },
                 {
-                    "id": "rt",
-                    "name": "RT"
-                },
-                {
                     "id": "rte",
                     "name": "RTE"
-                },
-                {
-                    "id": "rtl-nieuws",
-                    "name": "RTL Nieuws"
-                },
-                {
-                    "id": "sabq",
-                    "name": "SABQ"
-                },
-                {
-                    "id": "spiegel-online",
-                    "name": "Spiegel Online"
-                },
-                {
-                    "id": "svenska-dagbladet",
-                    "name": "Svenska Dagbladet"
                 },
                 {
                     "id": "the-american-conservative",
@@ -293,21 +165,51 @@
                 {
                     "id": "vice-news",
                     "name": "Vice News"
+                }
+            ],
+            "technology": [
+                {
+                    "id": "ars-technica",
+                    "name": "Ars Technica"
                 },
                 {
-                    "id": "xinhua-net",
-                    "name": "Xinhua Net"
+                    "id": "crypto-coins-news",
+                    "name": "Crypto Coins News"
                 },
                 {
-                    "id": "ynet",
-                    "name": "Ynet"
+                    "id": "engadget",
+                    "name": "Engadget"
+                },
+                {
+                    "id": "hacker-news",
+                    "name": "Hacker News"
+                },
+                {
+                    "id": "recode",
+                    "name": "Recode"
+                },
+                {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                {
+                    "id": "techradar",
+                    "name": "TechRadar"
+                },
+                {
+                    "id": "the-next-web",
+                    "name": "The Next Web"
+                },
+                {
+                    "id": "the-verge",
+                    "name": "The Verge"
+                },
+                {
+                    "id": "wired",
+                    "name": "Wired"
                 }
             ],
             "business": [
-                {
-                    "id": "argaam",
-                    "name": "Argaam"
-                },
                 {
                     "id": "australian-financial-review",
                     "name": "Australian Financial Review"
@@ -325,10 +227,6 @@
                     "name": "Business Insider (UK)"
                 },
                 {
-                    "id": "die-zeit",
-                    "name": "Die Zeit"
-                },
-                {
                     "id": "financial-post",
                     "name": "Financial Post"
                 },
@@ -337,86 +235,8 @@
                     "name": "Fortune"
                 },
                 {
-                    "id": "handelsblatt",
-                    "name": "Handelsblatt"
-                },
-                {
-                    "id": "il-sole-24-ore",
-                    "name": "Il Sole 24 Ore"
-                },
-                {
-                    "id": "info-money",
-                    "name": "InfoMoney"
-                },
-                {
-                    "id": "les-echos",
-                    "name": "Les Echos"
-                },
-                {
                     "id": "the-wall-street-journal",
                     "name": "The Wall Street Journal"
-                },
-                {
-                    "id": "wirtschafts-woche",
-                    "name": "Wirtschafts Woche"
-                }
-            ],
-            "technology": [
-                {
-                    "id": "ars-technica",
-                    "name": "Ars Technica"
-                },
-                {
-                    "id": "crypto-coins-news",
-                    "name": "Crypto Coins News"
-                },
-                {
-                    "id": "engadget",
-                    "name": "Engadget"
-                },
-                {
-                    "id": "gruenderszene",
-                    "name": "Gruenderszene"
-                },
-                {
-                    "id": "hacker-news",
-                    "name": "Hacker News"
-                },
-                {
-                    "id": "recode",
-                    "name": "Recode"
-                },
-                {
-                    "id": "t3n",
-                    "name": "T3n"
-                },
-                {
-                    "id": "techcrunch",
-                    "name": "TechCrunch"
-                },
-                {
-                    "id": "techcrunch-cn",
-                    "name": "TechCrunch (CN)"
-                },
-                {
-                    "id": "techradar",
-                    "name": "TechRadar"
-                },
-                {
-                    "id": "the-next-web",
-                    "name": "The Next Web"
-                },
-                {
-                    "id": "the-verge",
-                    "name": "The Verge"
-                },
-                {
-                    "id": "wired",
-                    "name": "Wired"
-                },
-                {
-                    "id": "wired-de",
-                    "name": "Wired.de"
                 }
             ],
             "sports": [
@@ -447,14 +267,6 @@
                 {
                     "id": "fox-sports",
                     "name": "Fox Sports"
-                },
-                {
-                    "id": "lequipe",
-                    "name": "L'equipe"
-                },
-                {
-                    "id": "marca",
-                    "name": "Marca"
                 },
                 {
                     "id": "nfl-news",

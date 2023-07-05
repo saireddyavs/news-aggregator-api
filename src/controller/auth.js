@@ -76,7 +76,7 @@ const signIn = (req, res) => {
     },
     process.env.API_SECRET,
     {
-      expiresIn: 86400,
+      expiresIn: '300s',
     }
   );
 

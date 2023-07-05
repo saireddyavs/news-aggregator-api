@@ -23,7 +23,7 @@ const newsapi = new NewsAPI(process.env.NEWS_API_KEY);
 
 const updateSourceToCategoryMapping = async () => {
   await newsapi.v2
-    .sources()
+    .sources({ language: 'en' })
     .then((res) => {
       const array = res.sources;
       var result = {};
@@ -84,6 +84,7 @@ const getNews = async (req, res) => {
   newsapi.v2
     .topHeadlines({
       sources: user?.preferences ? getSourceIDs(user?.preferences) : '',
+      language: 'en',
     })
     .then((response) => res.status(200).json({ data: response }))
     .catch((err) => {
@@ -108,8 +109,7 @@ const getPreferences = (req, res) => {
   getSourceIDs(user.preferences);
   res.status(200).send({
     data: {
-      // preferences: user.preferences,
-      sourceToCateforyMapping,
+      preferences: user.preferences,
     },
   });
 };
