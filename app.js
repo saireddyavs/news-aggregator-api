@@ -18,8 +18,11 @@ app.use(morgan('tiny'));
 app.use(routes);
 
 routes.use('/', auth);
-// routes.use('/news', newAggregator);
 routes.use('/news', authenticateToken, newAggregator);
+
+app.use(function (req, res) {
+  res.status(404).send({ message: 'URL not found' });
+});
 
 app.listen(PORT, (error) => {
   if (!error)
